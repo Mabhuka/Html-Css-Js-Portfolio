@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oswell Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Oswell Brandon Mabhuka</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Oswell Mabhuka</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/Oswell Portrait.jpg" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Oswell Mabhuka</h1>
+        <p class="section__text__p2">Software Developer | Data Scientist</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Oswell_Software.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/in/oswell-mabhuka-aa2567198'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/Oswell.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>3+ years <br />Software Developer | Data Scientist</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Sc. Bachelors Degree<br />In Computer Science</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+                An energetic, ambitious person who has developed a mature and responsible approach to any task that I undertake , or situation that 
+                I am presented with. I am excellent at working with others to achieve a certain objective on time and with excellence. 
+                Passionate about creating, developing innovative and creative software solutions. 
+                Utilizing tools such as Python, MySQL, Java, C#, HTML, and JavaScript, I have been able to successfully launch applications 
+                and increase operational efficiency.
+  
+            </p>
+            
+            <P>
+
+                I have a keen interest in artificial intelligence and data science, which aligns well with forward-thinking projects. 
+                My ability to analyze complex challenges and implement efficient solutions makes me a strong candidate for this role
+            </P>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Programming Languages</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Experience</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Experience</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C#</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Data Analytics Tools</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Experience</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Power BI</h3>
+                  <p>Experience</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tableau</h3>
+                  <p>Experience</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Excel</h3>
+                  <p>Experience</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Matplotlib</h3>
+                  <p>Experience</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Seaborn</h3>
+                  <p>Experience</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/excel_icon.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Excel Projects</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="showHideProjects(),location.href='#excel'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/power-bi-icon.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Power BI Projects</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="showHideProjects2(),location.href='#powerbi'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/tableau_icon.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Tableau Projects</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="showHideProjects3(),location.href='#tableau'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+
+    <!---MY hide function starts here-->
+    <!---MY hide function starts here-->
+    <!---MY hide function starts here-->
+    <section class = "projects-demo hide", id = "excel">
+      <p class="section__text__p1">EXCEL: Live Demo</p>
+      <h1 class="title">1. BANK LOAN REPORT</h1>
+      <p class="section__text__p1">
+      In order to monitor and assess our bank's lending activities and performance, we need to create a comprehensive Bank Loan Report. 
+      This report aims to provide insights into key loan-related metrics and their changes over time. 
+      The report will help us make data-driven decisions, track our loan portfolio's health, and identify trends that can inform our lending strategies.
+      <p class="section__text__p1"><b>BANK LOAN SUMMARY DASHBOARD</b></p>
+      <div class="section__pro-container">
+        <img src="./assets/bank_loan.png" alt="John Doe profile picture" />
+      </div>
+    </p>
+    <p class="section__text__p1"><b>Here are the Key Performance Indicators (KPIs) Requirements I was interested in answering</b></p>
+    <p class="section__text__p1">
+      <li>Total Loan Applications: We need to calculate the total number of loan applications received during a specified period. </li>
+      <li>Total Funded Amount: Understanding the total amount of funds disbursed as loans is crucial</li>
+      <li>Total Amount Received: Tracking the total amount received from borrowers is essential for assessing the bank's cash flow and loan repayment.</li>
+      <li>Average Interest Rate: Calculating the average interest rate across all loans, MTD, and monitoring the Month-over-Month (MoM) variations in interest rates will provide insights into our lending portfolio's overall cost</li>
+      <li>Average Debt-to-Income Ratio (DTI): Evaluating the average DTI for our borrowers helps us gauge their financial health. We need to compute the average DTI for all loans, MTD, and track Month-over-Month (MoM) fluctuations.</li>
+      <li>Good and Bad Loan Application Percentage</li>
+      <li>Good and Bad Loan Applications</li>
+    </p>
+    <p class="section__text__p1">BANK LOAN OVERVIEW DASHBOARD</p>
+    <div class="section__pro-container">
+      <img src="./assets/bank_loan2.png" alt="John Doe profile picture" />
+    </div>
+    <p class="section__text__p1"><b>Here are the Key Performance Indicators (KPIs) Requirements I was interested in answering</b></p>
+    <p class="section__text__p1">
+      <li>Monthly Trends by Issue Date (Line Chart)</li>
+      <li>Regional Analysis by State (Filled Map)</li>
+      <li>Loan Term Analysis (Donut Chart)</li>
+      <li>Employee Length Analysis (Bar Chart)</li>
+      <li>Loan Purpose Breakdown (Bar Chart)</li>
+      <li>Home Ownership Analysis (Tree Map)</li>
+    </p>
+    <p class="section__text__p1"><b>I took the following steps to create my Analysis </b></p>
+    <p class="section__text__p1">
+      <li>Pulling the data from Kaggle, cleaning it and preparing it for analysis.</li>
+      <li>Creating charts and placing them in the dashboard tabs.</li>
+      <li>Utilizing the pivots tables to aggregate KPIs at the top of page.</li>
+      <li>Creating slicers and syncing all tables together for filtering.</li>
+      <li>Formatting all sections of the dashboard and creating overall theme.</li>
+    </p>
+    </section>
+
+
+    <section class = "projects-demo2 hide", id = "powerbi">
+      <p class="section__text__p1">POWER BI: Live Demo</p>
+      <h1 class="title">1. Adidas US Sales</h1>
+      <p class="section__text__p1">
+        This Adidas Sales project is a collection of mock data that includes information on the sales of Adidas products in the United States for 2020-21. 
+        It includes details such as the retailer, number of units sold, total sales revenue, location of sales, type of product sold, and other relevant information.
+        This dashboard can be useful for a variety of purposes, such as analyzing sales trends, identifying successful products or marketing campaigns, and developing strategies for future sales.
+      </p>
+      <p class="section__text__p1"><b>ADIDAS SALES DASHBOARD</b></p>
+      <div class="section__pro-container">
+        <img src="./assets/adidas.png" alt="John Doe profile picture" />
+      </div>
+
+      <p class="section__text__p1"><b>Here are the Key Performance Indicators (KPIs) Requirements I was interested in answering</b></p>
+      <p class="section__text__p1">
+        <li>Total Sales Analysis:Understand the overall sales performance of Adidas over time.</li>
+        <li>Profitability Analysis:Evaluate the total profit generated by Adidas across different dimensions.</li>
+        <li>Sales Volume Analysis:Examine the total units sold to gain insights into product demand.</li>
+        <li>Pricing Strategy:Determine the average price per unit to assess the pricing strategy.</li>
+        <li>Margin Analysis:Evaluate the average margin to understand the overall profitability of sales.</li>
+        <li>Total Sales by Month (Area Chart):Visualize the monthly distribution of total sales to identify peak periods.</li>
+        <li>Total Sales by State (Filled Map):Geographically represent total sales across different states using a filled map.</li>
+        <li>Total Sales by Region (Donut Chart):Use a donut chart to represent the contribution of different regions to total sales.</li>
+        <li>Total Sales by Product (Bar Chart):Analyze the sales distribution among various Adidas products using a bar chart.</li>
+        <li>Total Sales by Retailer (Bar Chart):Visualize the contribution of different retailers to total sales using a bar chart.</li>
+      </p>
+
+      <p class="section__text__p1"><b>I took the following steps to create my Analysis</b></p>
+      <p class="section__text__p1">
+        <li>Pulling the data from Kaggle, cleaning it and preparing it for analysis.</li>
+        <li>Enhanced understanding of sales dynamics and performance drivers.</li>
+        <li>Identification of geographical areas with high and low sales potential.</li>
+        <li>Actionable recommendations for optimizing sales and profit across various dimensions.</li>
+        <li>Dashboards for interactive analysis</li>
+      </p>
+
+    </section>
+
+
+    <section class = "projects-demo3 hide", id = "tableau">
+      <p class="section__text__p1">TABLEAU: Live Demo</p>
+      <h1 class="title">1. Electric Vehicle Population Data</h1>
+        <p class="section__text__p1">
+          This project provides comprehensive information on the population of Electric Vehicles (EVs) across various regions and time periods. 
+          It includes various measurements related to vehicle registration, eligibility for clean alternative fuel vehicle programs, and their electric range and pricing. 
+          The data spans several states and vehicle makes, providing a broad view of the EV market and its development.
+        </p>
+        <p class="section__text__p1"><b>ELECTRIC VEHICLE DASHBOARD</b></p>
+        <div class="section__pro-container">
+          <img src="./assets/electric_vehicle.png" alt="John Doe profile picture" />
+        </div>
+        <p class="section__text__p1"><b>Here are the Key Performance Indicators (KPIs) Requirements I was interested in answering</b></p>
+        <p class="section__text__p1">
+          <li>Total Vehicles: The overall landscape of electric vehicles, encompassing both BEVs and PHEVs, to assess the market's size and growth</li>
+          <li>Average Electric Range: The average electric range of the electric vehicles to gauge the technological advancements and efficiency of the EVs.</li>
+          <li>Total BEV Vehicles and % of Total BEV Vehicles: Identifying and analyzing the total number of Battery Electric Vehicles (BEVs) in the dataset.</li>
+          <li>Total PHEV Vehicles and % of Total PHEV Vehicles: Identify and analyze the total number of Plug-in Hybrid Electric Vehicles (PHEVs) in the dataset.</li>
+          <li>Total Vehicles by Model Year (From 2010 Onwards): Visualization: Line/ Area Chart </li>
+          <li>Total Vehicles by State: Visualization: Map Chart </li>
+          <li>Top 10 Total Vehicles by Make: Visualization: Bar Chart</li>
+          <li>Total Vehicles by CAFV Eligibility: Visualization: Pie Chart or Donut Chart</li>
+          <li>Top 10 Total Vehicles by Model: Visualization: Tree map</li>
+        </p>
+
+        <p class="section__text__p1"><b>I took the following steps to create my Analysis<</b>/p>
+        <p class="section__text__p1">
+          <li>Pulling the data from Kaggle, cleaning it and preparing it for analysis.</li>
+          <li>Define Objectives & Scope</li>
+          <li>Perform Analysis on Geospatial analysis like map charging infrastructure and demand</li>
+          <li>Dashboards for interactive analysis</li>
+        </p>
+
+
+    </section>
+    <!---MY hide function ends here-->
+    <!---MY hide function ends here-->
+    <!---MY hide function ends here-->
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:brandonmabhuka@gmail.com">brandonmabhuka@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://linkedin.com/in/oswell-mabhuka-aa2567198">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img
+              src="./assets/phone.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="#">+263775622508</a></p>
+          </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Oswell B Mabhuka. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
