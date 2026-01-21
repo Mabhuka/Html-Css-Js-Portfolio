@@ -7,6 +7,8 @@
     <title>Oswell Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
   </head>
   <body>
     <nav id="desktop-nav">
@@ -593,124 +595,103 @@
     <!---MY hide function starts here-->
     <!---MY hide function starts here-->
     <section class = "projects-demo4 hide", id = "python">
-      <p class="section__text__p1">PYTHON: Live Demo</p>
-      <h1 class="title">1. BANK LOAN REPORT</h1>
-      <p class="section__text__p1">
-      Ozyy. 
-      This report aims to provide insights into key loan-related metrics and their changes over time. 
-      The report will help us make data-driven decisions, track our loan portfolio's health, and identify trends that can inform our lending strategies.
-      <p class="section__text__p1"><b>BANK LOAN SUMMARY DASHBOARD</b></p>
-      <div class="section__pro-container">
-        <img src="./assets/bank_loan.png" alt="John Doe profile picture" />
+      <p class="section__text__p1">PYTHON: Demostrations</p>
+      <div class="cards">
+      <div class="card">
+        <img class="card__image" src="/assets/loginFormScreenshot.png" alt="" />
+        <div class="card__content">
+          <h5 class="card-title">Login Form Screenshot</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ducimus
+            id ab tenetur delectus reiciendis fugit autem qui at.
+          </p>
+          <p>
+            Alias itaque praesentium eum, pariatur consequatur ducimus
+            asperiores accusantium velit minima?
+          </p>
+        </div>
+        <div class="card__info">
+          <div><i class="material-icons">thumb_up</i>310</div>
+          <div>
+            <a href="./" class="card__link">View Project</a>
+          </div>
+        </div>
       </div>
-    </p>
-    <p class="section__text__p1"><b>Here are the Key Performance Indicators (KPIs) Requirements I was interested in answering</b></p>
-    <p class="section__text__p1">
-      <li>Total Loan Applications: We need to calculate the total number of loan applications received during a specified period. </li>
-      <li>Total Funded Amount: Understanding the total amount of funds disbursed as loans is crucial</li>
-      <li>Total Amount Received: Tracking the total amount received from borrowers is essential for assessing the bank's cash flow and loan repayment.</li>
-      <li>Average Interest Rate: Calculating the average interest rate across all loans, MTD, and monitoring the Month-over-Month (MoM) variations in interest rates will provide insights into our lending portfolio's overall cost</li>
-      <li>Average Debt-to-Income Ratio (DTI): Evaluating the average DTI for our borrowers helps us gauge their financial health. We need to compute the average DTI for all loans, MTD, and track Month-over-Month (MoM) fluctuations.</li>
-      <li>Good and Bad Loan Application Percentage</li>
-      <li>Good and Bad Loan Applications</li>
-    </p>
-    <p class="section__text__p1">BANK LOAN OVERVIEW DASHBOARD</p>
-    <div class="section__pro-container">
-      <img src="./assets/bank_loan2.png" alt="John Doe profile picture" />
+      <div class="card">
+        <img class="card__image" src="/assets/loginFormScreenshot.png" alt="" />
+        <div class="card__content">
+          <h5 class="card-title">Credit Card Fraud Detection Model</h5>
+          <p>
+            Developed using a Random Forest Classifier, 
+            trained on a large dataset of credit card transactions.
+          </p>
+          <p>
+             The model is designed to identify fraudulent transactions with high accuracy and minimal error,
+             making it suitable for real-world deployment in financial and e-commerce applications.
+          </p>
+        </div>
+        <div class="card__info">
+          <div><i class="material-icons">thumb_up</i>1,993</div>
+          <div>
+            <a href="./" class="card__link">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card__image" src="/assets/loginFormScreenshot.png" alt="" />
+        <div class="card__content">
+          <h5 class="card-title">Login Form Application</h5>
+          <p>
+            A user interface component typically comprising fields for a username/email and password, along 
+            with a submit button designed to authenticate users and grant access to secured applications or systems.
+          </p>
+          <p>
+            It acts as a security gateway to verify credentials and manage user sessions.
+          </p>
+        </div>
+        <div class="card__info">
+          <div><i class="material-icons">thumb_up</i>887</div>
+          <div>
+            <a href="./" class="card__link">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card__image" src="/assets/loginFormScreenshot.png" alt="" />
+        <div class="card__content">
+          <h5 class="card-title">Sign Up Form Application</h5>
+          <p>
+            A digital interface designed to collect user information for creating
+             an account, registering for services.
+            
+          </p>
+          <p>
+            These forms act as a gateway to establish user identity capturing essential details 
+            like names, emails and passwords, while allowing personalized, secure access to platforms.  
+          </p>
+        </div>
+        <div class="card__info">
+          <div><i class="material-icons">thumb_up</i>2,512</div>
+          <div>
+            <a href="./" class="card__link">View Project</a>
+          </div>
+        </div>
+      </div>
     </div>
-    <p class="section__text__p1"><b>Here are the Key Performance Indicators (KPIs) Requirements I was interested in answering</b></p>
-    <p class="section__text__p1">
-      <li>Monthly Trends by Issue Date (Line Chart)</li>
-      <li>Regional Analysis by State (Filled Map)</li>
-      <li>Loan Term Analysis (Donut Chart)</li>
-      <li>Employee Length Analysis (Bar Chart)</li>
-      <li>Loan Purpose Breakdown (Bar Chart)</li>
-      <li>Home Ownership Analysis (Tree Map)</li>
-    </p>
-    <p class="section__text__p1"><b>I took the following steps to create my Analysis </b></p>
-    <p class="section__text__p1">
-      <li>Pulling the data from Kaggle, cleaning it and preparing it for analysis.</li>
-      <li>Creating charts and placing them in the dashboard tabs.</li>
-      <li>Utilizing the pivots tables to aggregate KPIs at the top of page.</li>
-      <li>Creating slicers and syncing all tables together for filtering.</li>
-      <li>Formatting all sections of the dashboard and creating overall theme.</li>
-    </p>
     </section>
 
 
     <section class = "projects-demo5 hide", id = "c#">
       <p class="section__text__p1">C#: Live Demo</p>
       <h1 class="title">1. Adidas US Sales</h1>
-      <p class="section__text__p1">
-        This Adidas Sales project is a collection of mock data that includes information on the sales of Adidas products in the United States for 2020-21. 
-        It includes details such as the retailer, number of units sold, total sales revenue, location of sales, type of product sold, and other relevant information.
-        This dashboard can be useful for a variety of purposes, such as analyzing sales trends, identifying successful products or marketing campaigns, and developing strategies for future sales.
-      </p>
-      <p class="section__text__p1"><b>ADIDAS SALES DASHBOARD</b></p>
-      <div class="section__pro-container">
-        <img src="./assets/adidas.png" alt="John Doe profile picture" />
-      </div>
-
-      <p class="section__text__p1"><b>Here are the Key Performance Indicators (KPIs) Requirements I was interested in answering</b></p>
-      <p class="section__text__p1">
-        <li>Total Sales Analysis:Understand the overall sales performance of Adidas over time.</li>
-        <li>Profitability Analysis:Evaluate the total profit generated by Adidas across different dimensions.</li>
-        <li>Sales Volume Analysis:Examine the total units sold to gain insights into product demand.</li>
-        <li>Pricing Strategy:Determine the average price per unit to assess the pricing strategy.</li>
-        <li>Margin Analysis:Evaluate the average margin to understand the overall profitability of sales.</li>
-        <li>Total Sales by Month (Area Chart):Visualize the monthly distribution of total sales to identify peak periods.</li>
-        <li>Total Sales by State (Filled Map):Geographically represent total sales across different states using a filled map.</li>
-        <li>Total Sales by Region (Donut Chart):Use a donut chart to represent the contribution of different regions to total sales.</li>
-        <li>Total Sales by Product (Bar Chart):Analyze the sales distribution among various Adidas products using a bar chart.</li>
-        <li>Total Sales by Retailer (Bar Chart):Visualize the contribution of different retailers to total sales using a bar chart.</li>
-      </p>
-
-      <p class="section__text__p1"><b>I took the following steps to create my Analysis</b></p>
-      <p class="section__text__p1">
-        <li>Pulling the data from Kaggle, cleaning it and preparing it for analysis.</li>
-        <li>Enhanced understanding of sales dynamics and performance drivers.</li>
-        <li>Identification of geographical areas with high and low sales potential.</li>
-        <li>Actionable recommendations for optimizing sales and profit across various dimensions.</li>
-        <li>Dashboards for interactive analysis</li>
-      </p>
-
+      
     </section>
 
 
     <section class = "projects-demo6 hide", id = "html">
       <p class="section__text__p1">Html: Live Demo</p>
       <h1 class="title">1. Electric Vehicle Population Data</h1>
-        <p class="section__text__p1">
-          This project provides comprehensive information on the population of Electric Vehicles (EVs) across various regions and time periods. 
-          It includes various measurements related to vehicle registration, eligibility for clean alternative fuel vehicle programs, and their electric range and pricing. 
-          The data spans several states and vehicle makes, providing a broad view of the EV market and its development.
-        </p>
-        <p class="section__text__p1"><b>ELECTRIC VEHICLE DASHBOARD</b></p>
-        <div class="section__pro-container">
-          <img src="./assets/electric_vehicle.png" alt="John Doe profile picture" />
-        </div>
-        <p class="section__text__p1"><b>Here are the Key Performance Indicators (KPIs) Requirements I was interested in answering</b></p>
-        <p class="section__text__p1">
-          <li>Total Vehicles: The overall landscape of electric vehicles, encompassing both BEVs and PHEVs, to assess the market's size and growth</li>
-          <li>Average Electric Range: The average electric range of the electric vehicles to gauge the technological advancements and efficiency of the EVs.</li>
-          <li>Total BEV Vehicles and % of Total BEV Vehicles: Identifying and analyzing the total number of Battery Electric Vehicles (BEVs) in the dataset.</li>
-          <li>Total PHEV Vehicles and % of Total PHEV Vehicles: Identify and analyze the total number of Plug-in Hybrid Electric Vehicles (PHEVs) in the dataset.</li>
-          <li>Total Vehicles by Model Year (From 2010 Onwards): Visualization: Line/ Area Chart </li>
-          <li>Total Vehicles by State: Visualization: Map Chart </li>
-          <li>Top 10 Total Vehicles by Make: Visualization: Bar Chart</li>
-          <li>Total Vehicles by CAFV Eligibility: Visualization: Pie Chart or Donut Chart</li>
-          <li>Top 10 Total Vehicles by Model: Visualization: Tree map</li>
-        </p>
-
-        <p class="section__text__p1"><b>I took the following steps to create my Analysis </b></p>
-        <p class="section__text__p1">
-          <li>Pulling the data from Kaggle, cleaning it and preparing it for analysis.</li>
-          <li>Define Objectives & Scope</li>
-          <li>Perform Analysis on Geospatial analysis like map charging infrastructure and demand</li>
-          <li>Dashboards for interactive analysis</li>
-        </p>
-
-
+        
     </section>
 
 
